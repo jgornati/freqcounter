@@ -1,0 +1,17 @@
+{
+  "name": "Icter",
+  "version": "1.0.0",
+  "description": "Read Frequency of sensor tsl235r and push to web socket",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3",
+    "serialport": "^1.6.3",
+    "socket.io": "^1.3.5"
+  }
+}
